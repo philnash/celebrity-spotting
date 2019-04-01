@@ -2,7 +2,8 @@
 
 source "https://rubygems.org"
 
-gem "sinatra"
+gem "sinatra", require: "sinatra/base"
 gem "twilio-ruby"
 gem "aws-sdk"
 gem "envyable"
+gem "down"
